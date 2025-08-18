@@ -2,7 +2,7 @@
 
 | 🇬🇧 Input a list of Filmaffinity movies links       | ➡️ | Output the movies title                           |
 | -------------------------------------------------- | -- | ------------------------------------------------- |
-| 🇪🇸 Introduce una lista the enlaces de Filmaffinity | ➡️ | Genera una lista con los títulos de las películas |
+| 🇪🇸 Introduce una lista con enlaces de Filmaffinity | ➡️ | Genera una lista con los títulos de las películas |
 
 ## Setup
 
