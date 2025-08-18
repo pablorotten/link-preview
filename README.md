@@ -4,7 +4,7 @@
 | -------------------------------------------------- | -- | ------------------------------------------------- |
 | 🇪🇸 Introduce una lista the enlaces de Filmaffinity | ➡️ | Genera una lista con los títulos de las películas |
 
-## Dependencies
+## Setup
 
 ```sh
 python3 -m venv venv
@@ -20,4 +20,4 @@ python3 preview-movies.py
 ```
 
 > [!CAUTION]
-> This script uses [scraping](https://en.wikipedia.org/wiki/Web_scraping)! Use with caution.
+> This script uses [scraping](https://en.wikipedia.org/wiki/Web_scraping)!
