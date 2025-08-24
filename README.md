@@ -31,4 +31,7 @@ grep -F -x -f added-links links
 
 # find links of movies not found
 awk 'NR==FNR {if ($0 == "Title Not Found") lines[FNR]; next} FNR in lines' movies link
+
+# Group movies in 16
+awk '1; NR % 16 == 0 {print ""}' added-movies > movies_grouped.txt
 ```
