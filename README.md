@@ -21,3 +21,14 @@ python3 preview-movies.py
 
 > [!CAUTION]
 > This script uses [scraping](https://en.wikipedia.org/wiki/Web_scraping)!
+
+## Useful commands
+
+```sh
+# find lines in `links` that are not in `added-links` and the opposite
+grep -v -F -f added-links links
+grep -F -x -f added-links links
+
+# find links of movies not found
+awk 'NR==FNR {if ($0 == "Title Not Found") lines[FNR]; next} FNR in lines' movies link
+```
